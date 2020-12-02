@@ -1,5 +1,5 @@
 # GoDoctor
-Projeto de cadastro de eventos, realizado como prova do terceiro bimestre do curso de Sistemas de Informação da UniFOA. Priorizando o Backend em Typescript e nodejs.
+Projeto de cadastro de eventos, realizado como prova do quarto bimestre do curso de Sistemas de Informação da UniFOA. Priorizando o Backend em Typescript e nodejs.
 
 ## Instalação
 
