@@ -312,7 +312,7 @@ const Appointment: React.FC = () => {
           <Form ref={formRef} onSubmit={handleSearch}>
             {listAppointments.map(appointment => (
               <>
-              <EventSearch date={appointment.item.date} Doctor={appointment.doctor.name} Pacient={appointment.pacient.name} id={appointment.item.id} onClick={()=>handleDoctorDetail(appointment.item.id)}/>
+              <EventSearch date={appointment.item.date} Doctor={appointment.doctor.specialty +" - "+ appointment.doctor.name} Pacient={appointment.pacient.name} id={appointment.item.id} onClick={()=>handleDoctorDetail(appointment.item.id)}/>
               <Button onClick={()=>handleDoctorDetail(appointment.item.id)} > Editar </Button>
               </>
             ))}
